@@ -16,22 +16,20 @@ To use this plugin, you'll need to have the following installed on your system:
 1. Stream Deck Software (v6.5 or higher)
 2. iRacing Subscription
 3. Node.js (v20 or higher)
-4. Additional Dependencies:
-
-    a. node-gyp@^9.0.0
-
-    b. Python 3 (latest version)
-
-    c. Microsoft Visual Studio Build Tools
+    
+      node-gyp@^9.0.0
+    
+      Microsoft Visual Studio Build Tools
+4. Python 3 (latest version)
 
 ## Installation
 **Step 1:** Install Required Dependencies
 
-Once you have installed Node.js make sure you have the following global dependencies installed before proceeding:
+Once you have installed [**Node.js**](https://nodejs.org/en/download/prebuilt-installer), make sure to install the following dependencies from your command console (powershell or cmd):
 
-    npm install -g node-gyp
+    npm install -g node-gyp; npm install -g windows-build-tools
 
-Ensure you have **Python 3** and **Microsoft Visual Studio Build** Tools installed on your machine. These are required to compile some dependencies used by the plugin.
+Also ensure you have [**Python 3**](https://www.python.org/downloads/) installed on your machine. This is required to compile some dependencies used by the plugin.
 
 **Step 2:** Download the Plugin
 
