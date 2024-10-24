@@ -27,7 +27,7 @@ To use this plugin, you'll need to have the following installed on your system:
 ## Installation
 **Step 1:** Install Required Dependencies
 
-Make sure you have the following global dependencies installed before proceeding:
+Once you have installed Node.js make sure you have the following global dependencies installed before proceeding:
 
     npm install -g node-gyp
 
@@ -57,23 +57,6 @@ You can customize the behavior of the plugin by adjusting the settings in the St
 1. Enable/Disable Flags: Choose which flags to display.
 2. Set your custom images when flag is active if you want.
 3. Connection Status: See the connection status between iRacing and Stream Deck.
-
-## Building the Plugin (For Developers)
-
-If you want to build the plugin from the source code:
-
-**Step 1:** Clone the Repository
-
-    git clone https://github.com/UrielGlez/iFlags-plugin.git
-    cd iFlags
-
-**Step 2:** Install Dependencies
-
-    npm install
-
-**Step 3:** Run the Plugin
-
-    npm run watch
 
 ## Troubleshooting
 
